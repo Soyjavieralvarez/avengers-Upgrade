@@ -1,0 +1,136 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.navbar{
+  background-color:black;
+  width:100%;
+}
+
+.navbar_menu{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+
+}
+
+.navbar_item{
+  padding-left: 30px;
+  padding-right:30px;
+  width:10%;
+  list-style: none;
+  display:flex;
+  justify-content: center;
+   
+}
+
+.navbar_item img{
+  height:30px;
+  margin:20px;
+}
+
+
+.navbar_link{
+  color:white;
+  text-decoration: none;
+}
+
+
+.hero{
+  background-color: whitesmoke;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;;
+}
+
+.hero__container{
+  letter-spacing: 5px;
+  
+}
+
+.hero__intro{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+
+}
+
+.hero__caption{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.hero__intro strong{
+  color:red;
+}
+
+.hero img{
+  padding:20px;
+}
+
+.characters{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:40px;
+
+
+}
+
+.characters__item{
+  border-radius:8px;
+  margin:14px;
+  text-align: center;
+  height: 300px;
+  width: 180px;
+  object-fit: cover;
+  padding:4px;
+
+}
+
+.characters__item img{
+  width:80%;
+  height: 80%;
+  object-fit: contain;
+  margin:10px;
+}
+
+.character__title{
+  background-color:black;
+  color:white;
+
+}
+
+.b-contact{
+  letter-spacing:5px;
+  text-align: center;
+
+}
+
+.hero a{
+  color:red;
+  text-decoration: none;
+
+}
+
+.hero__footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width:100%;
+  background-color: black;
+  color:white;
+
+}
+
